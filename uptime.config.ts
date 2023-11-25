@@ -1,16 +1,16 @@
 const config = {
   // Your locale for server-side callback. (client-side will always follow browser settings)
-  dateLocale: 'zh-CN',
+  dateLocale: 'vi_VN',
   // Your timezone for server-side callback. (client-side will always follow browser settings)
-  timezone: 'Asia/Shanghai',
+  timezone: 'Asia/Saigon',
   page: {
     // Title for your status page
-    title: "lyc8503's Status Page",
+    title: "NextDNS Status Page",
     // Links shown at the header of your status page, could set `highlight` to `true`
     links: [
-      { link: 'https://github.com/lyc8503', label: 'GitHub' },
-      { link: 'https://blog.lyc8503.site/', label: 'Blog' },
-      { link: 'mailto:me@lyc8503.site', label: 'Email Me', highlight: true },
+      { link: 'https://github.com/nguyenvanquoctrung', label: 'GitHub' },
+      { link: '#', label: 'Blog' },
+      { link: 'mailto:#', label: 'Email Me', highlight: true },
     ],
   },
   callback: async (statusChangeMsg: string) => {
