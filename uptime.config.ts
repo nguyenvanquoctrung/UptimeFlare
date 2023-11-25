@@ -1,16 +1,13 @@
 const config = {
   // Your locale for server-side callback. (client-side will always follow browser settings)
-  dateLocale: 'vi_VN',
+  dateLocale: 'en-GB',
   // Your timezone for server-side callback. (client-side will always follow browser settings)
-  timezone: 'Asia/Saigon',
+  timezone: 'Asia/Ho_Chi_Minh',
   page: {
     // Title for your status page
     title: "NextDNS Status Page",
     // Links shown at the header of your status page, could set `highlight` to `true`
     links: [
-      { link: 'https://github.com/nguyenvanquoctrung', label: 'GitHub' },
-      { link: '#', label: 'Blog' },
-      { link: 'mailto:#', label: 'Email Me', highlight: true },
     ],
   },
   callback: async (statusChangeMsg: string) => {
